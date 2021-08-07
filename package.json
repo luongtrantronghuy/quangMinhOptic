@@ -9,5 +9,8 @@
     "backend": "cd backend && npm start",
     "frontend": "cd frontend && npm start",
     "start": "(npm run backend) & (npm run frontend)"
+  },
+  "dependencies": {
+    "react-router-dom": "^5.2.0"
   }
 }

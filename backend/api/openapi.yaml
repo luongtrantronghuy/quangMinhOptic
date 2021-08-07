@@ -1,0 +1,19 @@
+openapi: '3.0.3'
+
+info:
+  title: Quang Minh Optic
+  version: 0.1.0
+
+servers:
+  - url: http://localhost:3010/v0
+
+paths:
+
+  securitySchemes:
+    bearerAuth:            # arbitrary name for the security scheme
+      type: http
+      scheme: bearer
+      bearerFormat: JWT    # optional, arbitrary value for documentation purposes
+
+security:
+  - bearerAuth: []         # use the same name as above

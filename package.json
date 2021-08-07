@@ -1,0 +1,13 @@
+{
+  "name": "quang-minh-optic",
+  "version": "1.0.0",
+  "description": "Quang Minh Optic",
+  "author": "...",
+  "license": "UNLICENSED",
+  "repository": "none",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "start": "(npm run backend) & (npm run frontend)"
+  }
+}
